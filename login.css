@@ -1,0 +1,69 @@
+
+#back img{
+    width: 100%;
+    height: 685px;
+}
+#back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow:hidden;
+ }
+#login{
+    width: 350px;
+    height: 380px;
+    position: absolute;
+    background: rgba(255,255,255,0.3);
+    z-index: 9;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#login h1{
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "sans-serif", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.account-info {
+    padding: 20px 20px 0 20px;
+}
+.account-info label {
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.account-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: black;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+}
+input {
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+#bt button{
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+    margin-left: 15%;
+}
+.error{
+color: cyan;
+}
