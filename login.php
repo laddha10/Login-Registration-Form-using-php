@@ -4,7 +4,7 @@
 $id=$pass=$nameee="";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     session_start();
-    require("connect.php");
+    require_once("connect.php");
     $userid = $_POST["id"];
     $passwordlogin = $_POST["password"];
     $sql = "SELECT * FROM login WHERE user_id ='$userid' AND pass_word='$passwordlogin' ";
