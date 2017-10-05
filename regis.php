@@ -13,7 +13,7 @@
 session_start();
 
 if(isset($_POST['submit'])) {
-    require("connect.php");
+    require_once("connect.php");
     $db=mysql_select_db("registration",$conn);
     $userid = $_POST['uid'];
     $password = $_POST['pass'];
