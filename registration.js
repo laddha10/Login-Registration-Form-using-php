@@ -64,7 +64,7 @@ function buttonused(){
     var genderF=form.female;
 
     if(genderM.checked==false && genderF.checked==false ) {
-        alert("You must select male or female");
+        alert("You must select a gender");
         return false;
     }
 }
