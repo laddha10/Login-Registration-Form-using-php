@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       require ("final2.php");
   }
   else{
-      echo"Please enter  correct data";
+      echo "Please enter correct data";
     }
 
 }else{
