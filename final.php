@@ -7,7 +7,8 @@
     <title>Your Data</title>
 </head>
 <body>
-<header style="height: 70px" class="header">Your Data <h6>"YOUR REGISTRATION IS COMPLETED"</h6></header>
+<header style="height: 70px" class="header"><h6>"YOUR REGISTRATION IS COMPLETED"</h6></header>
+    <h6>Your Data</h6>
 <form class="fin">
 <fieldset>
 <table>
