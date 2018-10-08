@@ -41,7 +41,7 @@ if(isset($_POST['submit'])) {
          require("final.php");
     }
     else {
-        echo "not done";
+        echo "User is not saved";
     }
 
 
